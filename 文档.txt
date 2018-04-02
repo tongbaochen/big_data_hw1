@@ -14,6 +14,21 @@
 登录guest账户
 密码为 bdms
 
+--------
+指导文件路径
+work/hw1   Homework 1 example code and README instruction
+work/hw2   Homework 2
+work/hw2/hadoop     Homework 2 part 1 example and README
+work/hw2/graphlite  Homework 2 part 2 example and README
+
+work/*     hdfs / hbase /zookeeper data directories
+
+------
+
+cd /
+cat readme.txt查看文件内容
+
+
 
 
 
