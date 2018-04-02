@@ -1,0 +1,19 @@
+不要用root,Hadoop的很多东西不允许root安装或者root操作
+
+电脑上装eclipse,而且Java是面向JVM的，跟操作系统无关，你在Windows下变异的字节码在任何系统上都能完美运行
+
+在eclipse上可以进行远程调试
+
+写的代码就是排序或者去重的小模块，可以自己编写测试用例
+
+进用户 bdms
+
+ sudo -s
+密码 work
+
+登录guest账户
+密码为 bdms
+
+
+
+
