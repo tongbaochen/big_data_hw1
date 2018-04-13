@@ -28,6 +28,101 @@ work/*     hdfs / hbase /zookeeper data directories
 cd /
 cat readme.txt查看文件内容
 
+linux常用指令：
+
+    ls——显示文件或目录；
+
+    -l——列出文件详细信息l(list) ；
+
+    -p——创建目录，若无父目录，则创建p(parent)；
+
+    cd——切换目录；
+
+    touch——创建空文件；
+
+    echo——创建带有内容的文件；
+
+    cat——查看文件内容；
+
+    cp——拷贝；
+
+    mv——移动或重命名；
+
+    rm——删除文件；
+
+    -r——递归删除，可删除子目录及文件；
+
+    -f——强制删除；
+
+    find——在文件系统中搜索某文件；
+
+    wc——统计文本中行数、字数、字符数；
+
+    grep——在文本文件中查找某个字符串；
+
+    rmdir——删除空目录；
+
+    tree——树形结构显示目录，需要安装tree包；
+
+    pwd——显示当前目录；
+
+    ln——创建链接文件；
+
+    more、less——分页显示文本文件内容；
+
+    head、tail——显示文件头、尾内容；
+
+    ctrl+alt+F1——命令行全屏模式。
+
+
+----------
+可以使用cd命令，cd命令的功能是切换到指定的目录：
+命令格式：cd [目录名]
+有几个符号作为目录名有特殊的含义：
+“/”代表根目录、“..”代表上一级目录、“~”代表HOME目录、“-”代表前一目录
+因此返回HOME目录可以使用命令：
+cd ~
+cd命令目录名称的默认值就是~，因此可以进一步简化成：
+cd
+------------------
+gedit 编辑器，有语法高亮
+
+或者你用vim，nano都行，ubuntu的bin也带语法高亮
+挂起，不关机，防止文件丢失
+
+思路：
+
+输入命令行语句，我们的程序解析识别出file \select\distinct\x这些参数，然后进行处理返回结果，接着再写入hbase?
+
+在linux上面一直没有找到好的修改文件的方法，今天找到了一个
+[html] view plain copy
+
+    mv file.{cpp,c}  
+
+上面的意思就是说把文件file结尾为cpp改成c文件格式
+
+
+陈通宝 2017E8016061037 9班  13051495288
+柳阳  201718013229033  6班  18801239601
+
+
+1|1552|93|1|17|24710.35|0.04|0.02|N|O|1996-03-13|1996-02-12|1996-03-22|DELIVER IN PERSON|TRUCK|egular courts above the|
+1|674|75|2|36|56688.12|0.09|0.06|N|O|1996-04-12|1996-02-28|1996-04-20|TAKE BACK RETURN|MAIL|ly final dependencies: slyly bold |
+1|637|38|3|8|12301.04|0.10|0.02|N|O|1996-01-29|1996-03-05|1996-01-31|TAKE BACK RETURN|REG AIR|riously. regular, express dep|
+1|22|48|4|28|25816.56|0.09|0.06|N|O|1996-04-21|1996-03-30|1996-05-16|NONE|AIR|lites. fluffily even de|
+1|241|23|5|24|27389.76|0.10|0.04|N|O|1996-03-30|1996-03-14|1996-04-01|NONE|FOB| pending foxes. slyly re|
+1|157|10|6|32|33828.80|0.07|0.02|N|O|1996-01-30|1996-02-07|1996-02-03|DELIVER IN PERSON|MAIL|arefully slyly ex|
+2|1062|33|1|38|36596.28|0.00|0.05|N|O|1997-01-28|1997-01-14|1997-02-02|TAKE BACK RETURN|RAIL|ven requests. deposits breach a|
+3|43|19|1|45|42436.80|0.06|0.00|R|F|1994-02-02|1994-01-04|1994-02-23|NONE|AIR|ongside of the furiously brave acco|
+3|191|70|2|49|53468.31|0.10|0.00|R|F|1993-11-09|1993-12-20|1993-11-24|TAKE BACK RETURN|RAIL| unusual accounts. eve|
+
+
+
+
+
+
+
+
 
 
 
